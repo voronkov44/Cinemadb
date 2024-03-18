@@ -5,5 +5,5 @@ type CreateFilmDTO struct {
 	Description string `json:"description"`
 	Edition     string `json:"edition"`
 	Rating      int8   `json:"rating"`
-	AuthorID    int    `json:"author_id"`
+	ActorID    int    `json:"actor_id"`
 }
